@@ -1,0 +1,32 @@
+.formulario{
+    flex: auto; 
+    padding: 0px 50%;
+    font-size: 20px;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid gainsboro;
+}
+
+textarea {
+  font: 20px sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid gainsboro;
+
+}
+
+.button1 {
+    padding-left: 90px; 
+    height: 50px;
+    width: 100px;
+
+}
+.button2{
+    padding-left: 90px; 
+    height: 50px;
+    width: 200px;
+
+}

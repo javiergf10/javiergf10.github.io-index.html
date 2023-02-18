@@ -1,0 +1,45 @@
+.menu{
+    position:absolute;
+    padding:0;
+    list-style-type:none;
+    top: 30%;
+    right:30%;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cosa{
+    top: 500px;
+    text-align: center;
+    
+}
+
+
+.header h1{
+    position:sticky;
+    top:10px;
+    
+    text-align: 50%;
+}
+
+
+li{
+    float:left;
+    height: 70px;
+    
+    color:azure;
+    padding:3px 5px;
+}
+
+
+
+
+    
+
+
+
+

@@ -1,0 +1,166 @@
+colgroup{
+    color: rgb(182, 18, 51);
+    color:rgb(212, 83, 109);
+    color: gainsboro;
+    color:rgba(66, 60, 60, 0.596)
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.page{
+    width: calc(100% - 280px);
+    position:relative;
+    top: 0;
+    left: 280px;
+}
+
+.header{
+    width: 100%;
+    height: 700px;
+}
+
+.wiki{
+    box-sizing: border-box;
+    position:absolute;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    top:1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    left: 1%;
+}
+
+.labo{
+    box-sizing: border-box;
+    position:absolute;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    top:1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    right: 1%;
+}
+.header img{
+    position:relative;
+    width: 100%;
+    height: 520px;
+   
+}
+
+.header h1{
+    font-size: 800%;
+    position: absolute;
+    font-family:fantasy;
+    text-align: center;
+    color:crimson;
+    top: 1%;
+    left: 45%;
+    
+}
+
+.prologo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.container{
+    
+    display: flex;
+    background-color: gainsboro;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.tema{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 1px;
+    border-style: groove;
+    border-color: rgb(182, 18, 51);
+    border-width: 12px;
+    padding: 0px 20px;
+    
+}
+
+.subtema{ 
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    border: solid 1px;
+    border-style: groove;
+    border-color: rgb(182, 18, 51);
+    border-width: 12px;
+    padding: 0px 20px;
+    
+}
+h2,
+h3,
+h4,
+h6{
+    text-align: center;
+}
+
+.indice{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width: 280px;
+    height: 100%;
+    background-color: rgba(194, 66, 66,1); 
+    padding: 8px;
+    overflow-y: scroll;
+    list-style: none;
+    text-align: left;
+}
+
+.indice ul,
+.indice ol{
+    list-style: none;
+    color: rgb(233, 233, 233);
+    margin-left: -16px;
+}
+
+.indice > ul > li{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+
+#grafica{
+    /*La imagen no se ajusta bien*/
+    
+    margin-left:25%;
+}
+
+#poblacion{
+    font-family: 'Rock Salt', cursive;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid  rgb(212, 83, 109);
+    text-align: center;
+    
+}
+
+#poblacion.th,td{
+    border: 1px solid  rgb(212, 83, 109);
+}
+
+center{
+    flex: auto;
+    font-size: 25px;
+    box-sizing: border-box;
+    width: 100%;
+}
